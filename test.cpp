@@ -9,10 +9,5 @@ using namespace std;
 
 int main()
 {
-    int b = -2, a;
-    cout << b << endl;
-    cin >> a;
-    cout << a << endl;
-    cout << a + b << endl;
-    return 0;
+    
 }
