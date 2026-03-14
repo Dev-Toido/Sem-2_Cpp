@@ -1,0 +1,98 @@
+Q1. Rocket Launch Authorization System
+Story:
+A space research center is developing a rocket launch control system.
+ Critical launch parameters must be protected from direct modification.
+Requirements:
+Create class Rocket.
+Private data members:
+rocketID
+fuelLevel (0–100)
+launchCode
+isLaunched (bool)
+
+
+Public functions:
+Constructor to initialize rocket
+refuel(int amount)
+setLaunchCode(string code)
+launch(string enteredCode)
+getStatus()
+
+
+Conditions:
+Launch allowed only if fuelLevel ≥ 80
+Launch code must match
+Rocket cannot launch twice
+Fuel cannot exceed 100
+
+
+👉 Focus: Protect launchCode & fuelLevel
+
+
+Q2 . AI Exam Proctoring System
+Story:
+An AI-based online exam system must protect student scores and prevent tampering.
+Requirements:
+Create class ExamSession.
+
+
+Private:
+studentID
+score
+isSubmitted
+
+
+Public:
+startExam()
+submitExam(int marks)
+getResult()
+
+
+Conditions:
+Score cannot exceed 100
+Score cannot be changed after submission
+Result accessible only after submission
+
+
+Q3. OTT Streaming Subscription Control
+Story:
+An OTT platform wants to control subscription validity.
+Requirements:
+Create class Subscription.
+Private:
+userID
+expiryDate
+isActive
+Public:
+activatePlan(days)
+checkValidity()
+getStatus()
+Conditions:
+Expiry date updated internally
+Status depends on current date
+No direct modification allowed
+
+
+Q4. Factory Machine Temperature Control
+Story:
+Industrial machines must maintain safe temperature levels.
+Requirements:
+Create class Machine.
+Private:
+machineID
+temperature
+maxTemperature
+
+
+Public:
+setMaxTemperature()
+increaseTemperature()
+decreaseTemperature()
+getTemperature()
+
+
+Conditions:
+Temperature must not exceed maxTemperature
+Temperature cannot go below 0
+Display warning when unsafe
+
