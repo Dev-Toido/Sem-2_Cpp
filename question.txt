@@ -1,34 +1,3 @@
-Q1. Rocket Launch Authorization System
-Story:
-A space research center is developing a rocket launch control system.
- Critical launch parameters must be protected from direct modification.
-Requirements:
-Create class Rocket.
-Private data members:
-rocketID
-fuelLevel (0–100)
-launchCode
-isLaunched (bool)
-
-
-Public functions:
-Constructor to initialize rocket
-refuel(int amount)
-setLaunchCode(string code)
-launch(string enteredCode)
-getStatus()
-
-
-Conditions:
-Launch allowed only if fuelLevel ≥ 80
-Launch code must match
-Rocket cannot launch twice
-Fuel cannot exceed 100
-
-
-👉 Focus: Protect launchCode & fuelLevel
-
-
 Q2 . AI Exam Proctoring System
 Story:
 An AI-based online exam system must protect student scores and prevent tampering.
