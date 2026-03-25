@@ -24,24 +24,22 @@ int main()
     printf("Enter the details of the students: \n");
     for (int i = 0; i < noofstu; i++)
     {
-        printf("Enter the details of the %d student: \n",i+1);
+        printf("Enter the details of the %d student: \n", i + 1);
         printf("Name: ");
-        scanf("%s",students[i].name);
+        scanf("%s", students[i].name);
         printf("Roll: ");
-        scanf("%d",&students[i].roll);
+        scanf("%d", &students[i].roll);
         printf("Marks: ");
-        scanf("%f",&students[i].marks);
-        
+        scanf("%f", &students[i].marks);
     }
 
     printf("The details of the students are: \n");
     for (int i = 0; i < noofstu; i++)
     {
-        printf("The details of the %d student: \n",i+1);
-        printf("Name: %s\n",students[i].name);
-        printf("Roll: %d\n",students[i].roll);
-        printf("Marks: %f\n",students[i].marks);
-        
+        printf("The details of the %d student: \n", i + 1);
+        printf("Name: %s\n", students[i].name);
+        printf("Roll: %d\n", students[i].roll);
+        printf("Marks: %f\n", students[i].marks);
     }
     free(students);
     return 0;
