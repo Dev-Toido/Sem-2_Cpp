@@ -51,7 +51,7 @@ public:
     void increaseVolume()
     {
         int vol;
-        cout << "Enter the amount to increase volume(a number representing the amount of volume to be increased):";
+        cout << "Enter the amount of volume to increase :";
         cin >> vol;
         if (vol + volumeLevel > 100)
         {
@@ -67,7 +67,7 @@ public:
     void decreaseVolume()
     {
         int vol;
-        cout << "Enter the amount to decrease volume(a number representing the amount of volume to be decreased):";
+        cout << "Enter the amount of volume to decrease :";
         cin >> vol;
         if (volumeLevel - vol < 0)
         {

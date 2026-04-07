@@ -44,7 +44,7 @@ public:
     }
     void increaseDosage(int mg)
     {
-        if (checkSafety(dosageMg+mg))
+        if (checkSafety(dosageMg + mg))
         {
             dosageMg += mg;
             cout << "The dosage is updated!!" << endl;

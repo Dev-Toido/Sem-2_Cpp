@@ -35,10 +35,6 @@ int main()
     {
         inputdata(arr, noofele);
         displaydata(arr, noofele);
-        int newnoofele = 10;
-        arr = (int *)realloc(arr, 10 * sizeof(int));
-        inputdata(arr + noofele, newnoofele - noofele);
-        displaydata(arr, newnoofele);
     }
     else
     {

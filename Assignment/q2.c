@@ -8,19 +8,21 @@
 // Print message if pointer becomes NULL.
 #include <stdio.h>
 #include <stdlib.h>
-int main() {
+int main()
+{
     int sizeStr;
     printf("Enter the size of the string: ");
-    scanf("%d",&sizeStr);
+    scanf("%d", &sizeStr);
     sizeStr++;
-    char* str=(char*)malloc(sizeof(char)*sizeStr);
+    char *str = (char *)malloc(sizeof(char) * sizeStr);
 
-    if(str!=NULL){
+    if (str != NULL)
+    {
         printf("Enter the string: ");
-        scanf("%s",str);
-        str[sizeStr-1]='\0';
+        scanf("%s", str);
+        str[sizeStr - 1] = '\0';
 
-        printf("The Lenght of the String \"%s\" is %d",str,sizeStr-1);
+        printf("The Lenght of the String \"%s\" is %d", str, sizeStr - 1);
 
         free(str);
     }
