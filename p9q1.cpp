@@ -52,7 +52,7 @@ class SoilSensor : public Sensor {
 private:
     float moistureLevel;
     float fertilityIndex;
-    string suggestions; // Using a string instead of a vector
+    string suggestions; 
     bool isSuitable;
 
 public:
