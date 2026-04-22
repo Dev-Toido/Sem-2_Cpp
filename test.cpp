@@ -1,7 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main(int a,char *name[]) {
-    cout<<"Welcome "<<name[1]<<endl;
+int main()
+{
+    if ((1.0+2.0) == 3.0 )
+    {
+        cout << "Yes";
+    }
+    else
+        cout << "No";
     return 0;
 }
