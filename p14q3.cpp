@@ -32,7 +32,7 @@ public:
     void display() {
         cout << left << setw(10) << id 
              << setw(20) << name 
-             << "$" << fixed << setprecision(2) << salary << endl;
+             << "Rs" << fixed << setprecision(2) << salary << endl;
     }
 };
 
