@@ -15,7 +15,7 @@
 
 using namespace std;
 
-// Forward declaration of Mechanic class (optional but good practice)
+
 class Mechanic;
 
 class Engine {
